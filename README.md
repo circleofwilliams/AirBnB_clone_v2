@@ -142,4 +142,4 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 <h3>Authors</h3>
 
 LAWRENCE OGEREKA[GitHub](https://GitHub.com/Lawren10) | [Email](lawrenceanthony70@gmail.com) <br>
-
+WILLIAMS OLAMIDE[GitHub](https://github.com/circleofwilliams) | [Email](8.fidelity@gmail.com)
