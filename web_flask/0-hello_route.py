@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-""" Script that starts a flask web application """
+""" Script of a flask framework project """
 
-from flask import Flask
+from flask import Flask, render_template
+
 
 app = Flask(__name__)
 
+
 @app.route("/", strict_slashes=False)
-def home():
-	""" A function to serve request to the root """
+def hello():
+	""" A function to return a string """
 	return "Hello HBNB!"
 
+
 if __name__ == '__main__':
-	app.run(host="0.0.0.0", port=5000)
+	app.run(host="0.0.0.0", port=5000, debug=True)
+
